@@ -35,9 +35,9 @@ Is this ok? (yes) **yes**
 # 安裝Express
 > $ npm install express --save
 
-這行指令的意思是: 透過npm (nodejs的套件管理)幫我們安裝express這個framework
+這行指令的意思是: 透過npm (nodejs的套件管理)幫我們安裝express這個套件
 
---save的意思是把express 加到package.json的dependencies裡面去，未來如果有人下載了這個package.json 只要輸入npm install 後，npm就會根據package.json 裡面的設定幫我們長出一個node的網站出來
+--save的意思是把express 加到package.json 裡面的 dependencies內，未來如果有人下載了這個package.json 只要輸入npm install 後，npm就會根據package.json 裡面的設定幫我們長出一個node的網站出來
 
 可以看一下package.json的內容，會發現多了
 ```
